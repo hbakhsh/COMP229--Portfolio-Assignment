@@ -1,1 +1,131 @@
 
+
+
+	body 	{ 
+		margin:0; 
+		font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	}
+	
+	.header {
+		background: #00000000;
+		position: absolute;
+		width: 100%;
+		z-index: 99;
+	}
+	.navbar_header {
+		float: left;
+		padding: 15px;
+	}
+	.navbar_items {
+		margin: 0;
+		padding-top: 35px;
+	}
+	.navbar_logo {
+		background-image: url('assets/logo.jpeg');
+		display: block;
+		width: 64px;
+		height: 64px;
+	}
+	
+	.navbar_a {
+		text-decoration: none;
+		font-weight: bold;
+		color: #fff;
+		margin-bottom: 10px;
+		display: block;
+		font-size: 18px;
+		height: 20px;
+	}
+	footer {
+		clear: left;
+		color: #fff;
+	}
+	.footer {
+		color: #fff;
+		width: 90%;
+		padding: 70px;
+		height: 200px;
+		background: #2e3149;
+		overflow: hidden;
+	}
+
+.text-center--white {
+    text-align: center;
+    color: #fff;
+}
+.center_content {
+	margin: 200px;
+}
+
+.curved-bg-div {
+    background: url("assets/curved-bgg.jpg") no-repeat;
+    background-position: 0px -140px;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.normal_title {
+	text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #648cff;
+    font-size: 35px;
+}
+
+.about_me_img {
+	float: left;
+	height: 400px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	box-shadow: 0px 1px 3px #656565;
+} 
+#about_me_text {
+	font-size: 30px;
+	text-align: justify;
+}
+.project_container{
+	float: left;
+    width: 33.3333333333333%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.project_title {
+	font-size: 30px;
+	color: #648cff;
+}
+.project_text {
+	font-size: 20px;
+}
+.project_img{
+	width: 120px;
+	height: 120px;
+	border-radius: 20px;
+}
+.form {
+	background-color: #648cff;
+    padding: 40px 45px 40px 40px;
+    box-shadow: 0 3px 5px #989898;
+    border-radius: 5px;
+}
+
+.form__submit {
+    border: 3px solid #648cff;
+    border-radius: 300px;
+    background-color: #fff;
+    color: #648cff;
+    padding: 5px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+	font-weight: bold;
+	font-size: 20px;
+    transform: translateY(-45px);
+    padding: 10px 30px;
+}
+
+
+
+
+
+
